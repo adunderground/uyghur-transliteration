@@ -25,9 +25,6 @@ function getAlphabet() {
     alphabet.push(letter);
 
 
-
-    alphabet.push(letter);
-
     var letter = new Object();
     letter.latin = "f";
     letter.uyghur = '\u0641';    //f
@@ -37,12 +34,6 @@ function getAlphabet() {
     letter.latin = "g";
     letter.uyghur = '\u06AF';   //g
     alphabet.push(letter);
-
-    //var letter = new Object();
-    //letter.latin = "'g";
-    //letter.uyghur = '\u06AF';   //g
-    //alphabet.push(letter);
-
 
     var letter = new Object();
     letter.latin = "i";
@@ -235,8 +226,6 @@ function getAlphabet() {
     letter.uyghur = '\u06D0'; //ë
     alphabet.push(letter);
 
-    //letter_h.value;   letter h in uyghur  
-
     return alphabet;
 }
 
@@ -350,4 +339,3 @@ export function ConvertA2L(userInput) {
     }
     return str2;
 }
-
